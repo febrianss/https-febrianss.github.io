@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trueno";
+}
+header .container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.logo {
+  height: 65px;
+  width: 80px;
+  margin-left: 20px;
+}
+
+.header-kanan {
+  float: right;
+  margin-right: 20px;
+}
+
+.header-kanan a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(78, 73, 73);
+  float: left;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header-kanan .login:hover {
+  background-color: rgb(58, 101, 170);
+  color: white;
+}
+
+.header-kanan .beranda:hover {
+  background-color: rgb(58, 101, 170);
+  color: white;
+}
+
+.header-kanan .tentang:hover {
+  background-color: rgb(58, 101, 170);
+  color: white;
+}
+
+.header-kanan .berita:hover {
+  background-color: rgb(58, 101, 170);
+  color: white;
+}
+
+.header-kanan .login {
+  transition: all 0.5s;
+  margin-right: 5px;
+}
+
+.header-kanan .beranda {
+  transition: all 0.5s;
+  margin-right: 5px;
+}
+
+.header-kanan .tentang {
+  transition: all 0.5s;
+  margin-right: 5px;
+}
+
+.header-kanan .berita {
+  transition: all 0.5s;
+  margin-right: 5px;
+}
+
+.top-wrapper {
+  background-size: cover;
+  padding: 20px 0 90px 70px;
+  color: white;
+  background-image: url("./img/background.png");
+  padding-bottom: 50px;
+  margin-top: 65px;
+}
+
+.top-wrapper h1 {
+  font-family: "Trueno";
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 1px;
+}
+
+.top-wrapper h2 {
+  font-family: "Trueno";
+  font-weight: normal;
+  font-size: 70px;
+  margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+.top-wrapper p {
+  font-family: "Futura Md BT";
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 5px;
+  width: 350px;
+}
+
+.learn {
+  background-color: #239b76;
+  font-family: "Futura Md BT";
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.btn {
+  padding: 6px 18px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.thumbnail {
+  background-color: white;
+  padding: 10px;
+  width: 30%;
+  margin-left: 15px;
+  float: left;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.content {
+  background-color: rgb(55, 95, 158);
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.bagian-c {
+  width: 100%;
+  min-height: 500px;
+  padding: 10px 25px 100px 25px;
+  background-image: url("./img/content2.jpg");
+  background-size: cover;
+  background-color: #e7e7e7;
+}
+
+.konten {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+  margin: 0 auto;
+}
+
+.isi-konten {
+  width: 250px;
+  padding: 10px;
+  margin-left: 10px;
+  color: #213519;
+  font-size: 18px;
+  height: 300px;
+}
+.isi-konten h3 {
+  padding: 10px auto;
+}
+body {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.bottom-wrapper {
+  background-color: #d6f7ff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.bottom-wrapper h1 {
+  color: #0aa2c7;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-container img {
+  width: 100px;
+}
+.barang-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.barang-icon {
+  position: relative;
+}
+
+.barang-icon p {
+  color: #0aa2c7;
+  width: 100%;
+  font-weight: bold;
+}
+
+.barang-txt {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #78a2ab;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #e7e7e7;
+  height: 60px;
+  padding: 15px;
+  font-family: "Futura Md BT";
+}
+
+.footer-logo {
+  font-size: 20px;
+  float: left;
+  font-weight: bold;
+}
+
+.footer-list {
+  float: right;
+  font-size: 14px;
+}
+
+.footer-list li {
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+  header .container {
+    justify-content: center;
+  }
+  .content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .thumbnail {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 30px;
+  }
+  .konten {
+    flex-wrap: wrap;
+  }
+  .bottom-container {
+    width: 100%;
+  }
+  .barang-main {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-kanan a {
+    padding: 0 10px;
+    margin: 0px;
+    font-size: 14px;
+  }
+  .logo {
+    width: auto;
+  }
+  header .container {
+    justify-content: left;
+  }
+  .container h1 {
+    font-size: 50px;
+  }
+  .container h2 {
+    font-size: 50px;
+  }
+  .container p {
+    font-size: 16px;
+  }
+  .isi-konten {
+    width: 400px;
+    height: auto;
+  }
+  .barang {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .barang-2 {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .container h1 {
+    font-size: 30px;
+  }
+  .container h2 {
+    font-size: 30px;
+  }
+  .container p {
+    font-size: 12px;
+    max-width: 200px;
+  }
+  .top-wrapper {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .bagian-c,
+  .konten {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .isi-konten p {
+    font-size: 14px;
+  }
+  .isi-konten li {
+    font-size: 14px;
+  }
+  .isi-konten h3 {
+    font-size: 18px;
+  }
+}
